@@ -1,0 +1,117 @@
+/*
+ * Hi! I'm your stylesheet! I've got some sensible defaults here,
+ * but feel free to change me to your heart's content!
+ */
+
+ * {
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  body {
+    background: linear-gradient(#ffffff, #f4e2f8);
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+  }
+  
+  nav {
+    align-items: center;
+    background-color: #ff9ee8;
+    color: #ffffff;
+    display: flex;
+    height: 100px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
+  }
+  
+  span {
+    color:#ffffff;
+  }
+  
+  main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: 'center';
+  }
+   h1 {
+    font-size: x-large;
+    text-align: center;
+    color: #ffffff;
+   }
+  h2 {
+    font-size: large; 
+    text-align: center;
+    color: #ff9ee8;
+  }
+  
+  h3{
+    font-size: large; 
+    text-align: center;
+    color: #ff9ee8;
+  }
+  
+  h4{
+    font-size: large; 
+    text-align: center;
+    color: #ff9ee8;
+  }
+  
+  h5{
+    font-size: large; 
+    text-align: center;
+    color: #ff9ee8;
+  }
+  
+  p {
+    color: #ff9ee8;
+    text-align: center;
+  }
+  
+  img {
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #ff9ee8;
+  }
+  
+  form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: 'center';
+    width: 100%;
+  }
+  
+  button {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: 'center';
+    width: 100%;
+    background-color: #243f96;
+    color:white
+  }
+  
+   input {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: 'center';
+    width: 100%;
+   }
+  
+   a {
+    font-size: large; 
+    text-align: center;
+    color: #243f96;
+   }

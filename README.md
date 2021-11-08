@@ -5,6 +5,8 @@ Created to have a one stop shop to review tutorials, product reviews, and what's
 Sephora API:
 https://rapidapi.com/apidojo/api/sephora/
 
+- in terminal to query type node api
+
 
 Youtube API:
 https://developers.google.com/youtube/v3/quickstart/js#prerequisites 

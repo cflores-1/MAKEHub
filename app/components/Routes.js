@@ -16,7 +16,7 @@ const Routes = () => {
         </nav>
         <main>
           <h2>
-            MAKEHub for Tutorials, Product Reviews, and the Latest Trends
+            MAKEHub is your one stop shop for all your makeup questions
           </h2>
 
         </main>

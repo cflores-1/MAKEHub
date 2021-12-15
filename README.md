@@ -11,7 +11,7 @@ npm install
 npm run start-dev
 localhost:5000
 
-## API's:
+## Resources:
 
 Sephora API:
 https://rapidapi.com/apidojo/api/sephora/

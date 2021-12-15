@@ -8,7 +8,9 @@ MakeHub was created to have a one stop shop to review tutorials, product reviews
 ## Getting Started
 
 npm install
+
 npm run start-dev
+
 localhost:5000
 
 ## Resources:

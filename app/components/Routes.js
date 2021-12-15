@@ -12,7 +12,7 @@ const Routes = () => {
           <Link to="/"> &nbsp;<span>Home </span>&nbsp;</Link>  
           <Link to="/tutorials"> &nbsp;<span>Tutorials </span>&nbsp;</Link>
           <Link to="/products"> &nbsp;<span> Products </span>&nbsp;</Link>
-          <Link to="/trending"> &nbsp;<span> What's Trending? </span>&nbsp;</Link>
+          <Link to="/trending"> &nbsp;<span> Trending? </span>&nbsp;</Link>
         </nav>
         <main>
           <h2>

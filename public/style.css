@@ -78,7 +78,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid #ff9ee8;
+  width: 60px;
+  border: 4px solid #ff9ee8;
 }
 
 form {

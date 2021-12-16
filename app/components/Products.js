@@ -42,7 +42,7 @@ export function Products(){
     //once the button is clicked the handleClick function gets the searched product from the api
 return (
     <div class="container">
-       <input onChange={handleChange} placeholder="search term"/>
+       <input onChange={handleChange} placeholder="Search Product"/>
        <button onClick={handleClick}>Find Beauty Product</button> {
            foundProducts.map(
                (product, i) => {

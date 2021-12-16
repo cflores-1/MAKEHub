@@ -1,6 +1,6 @@
 var axios = require("axios").default;
 
-//testing connection to API
+//Sephora API connection
 var options = {
   method: 'GET',
   url: 'https://sephora.p.rapidapi.com/auto-complete',

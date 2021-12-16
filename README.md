@@ -11,7 +11,7 @@ npm install
 
 npm run start-dev
 
-localhost:5000
+open locally - localhost:5000
 
 ## Resources:
 

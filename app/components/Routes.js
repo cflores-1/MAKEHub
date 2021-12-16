@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, BrowserRouter as Router } from 'react-router-dom';
-
+import {Products} from './Products'
 import { Route, Link } from 'react-router-dom'
 
 const Routes = () => {
@@ -18,7 +18,7 @@ const Routes = () => {
           <h2>
             MAKEHub is your one stop shop for all your makeup questions
           </h2>
-
+          <Route exact path="/products" component={Products} />
         </main>
       </div>
     </Router>

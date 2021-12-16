@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import {Row, Container, Col} from 'react-bootstrap'
 
 
 
@@ -9,7 +10,7 @@ export function Products(){
 
     async function getData(searchTerm) {
 
-        //Sephora API connection
+        //Sephora API connection to auto-complete
         var options = {
             method: 'GET',
             url: 'https://sephora.p.rapidapi.com/auto-complete',
@@ -22,10 +23,8 @@ export function Products(){
 
         const response = await axios.request(options)
         return response
-
     }
     
-
     function handleChange(e){
         setSearch(e.target.value)
     }
@@ -47,10 +46,15 @@ return (
        <button onClick={handleClick}>Find Beauty Product</button> {
            foundProducts.map(
                (product, i) => {
-                   return <div key={i} class="row">
-                           <div class="col-6">{product.brandName} </div> <br></br>
-                           <div class="col-6">{product.productName}</div>
-                         </div>
+                   return <Container key={i}>
+                            <Row>
+                                <br></br>
+                                <Col> {product.brandName} </Col> 
+                                <Col> {product.productName}</Col>
+                                <Col> {product.productId} </Col> 
+                                <Col> <img src={product.defaultSku.skuImages.image50} ></img></Col>
+                           </Row>
+                         </Container>
                }
            )
        }

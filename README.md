@@ -11,14 +11,12 @@ npm install
 
 npm run start-dev
 
-open locally - localhost:5000
+open locally -> localhost:5000
 
 ## Resources:
 
 Sephora API:
 https://rapidapi.com/apidojo/api/sephora/
-
-- in terminal to query type node api
 
 Youtube API:
 https://developers.google.com/youtube/v3/quickstart/js#prerequisites
